@@ -11,6 +11,8 @@ position: fixed;
 line-height: 50px;
 width: 100%;
 border-bottom: 10px solid antiquewhite;
+display: flex;
+justify-content: flex-end;
 }
 
 #link {
@@ -35,13 +37,16 @@ img {
     border-radius: 15%;
 }
 
-div {
+form {
     margin: auto;
     height: fit-content;
     width: fit-content;
     padding: 15px 15px 15px 15px;
     background-color: #DCAE96;
     border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 p { 
@@ -61,7 +66,7 @@ section {
     margin-bottom: 10px;
 }
 
-form {
+label {
     display: inline;
     padding-bottom: 10px;
     border: #DCAE96 50px;
