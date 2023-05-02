@@ -13,8 +13,9 @@ width: 100%;
 border-bottom: 10px solid antiquewhite;
 }
 
-
-#navigation-design {
+#link {
+    text-decoration: none;
+    color: antiquewhite;
     display: inline;
     padding: 0px 30px;
     margin-top: 10px;
