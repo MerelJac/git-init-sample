@@ -32,15 +32,17 @@ img {
     border: solid #DCAE96 20px; 
     height: 200px;
     width: 200px;
+    border-radius: 15%;
 }
 
-/* form, input {
+div {
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    padding: 15px 15px 15px 15px;
     background-color: #DCAE96;
-    color: antiquewhite;
-    padding: 5px 15px 5px 15px;
     border-radius: 15%;
-    margin: 5px;
-} */
+}
 
 p { 
     line-height: 50px;
@@ -56,13 +58,12 @@ section {
     color: antiquewhite;
     margin-top: 10px;
     padding-bottom: 10px;
-    line-height: 30px  
-    margin-bottom: 10px antiquewhite;
+    margin-bottom: 10px;
 }
 
 form {
     display: inline;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
     border: #DCAE96 50px;
 }
 
@@ -70,9 +71,9 @@ input[type=submit] {
     background-color: antiquewhite;
     color: olive;
     padding: 5px 15px;
+    margin-bottom: 20px;
     border-radius: 15%;
     cursor: pointer;
-    margin-bottom: 20px;
 }
 
 footer {
