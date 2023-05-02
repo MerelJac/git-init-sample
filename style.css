@@ -27,6 +27,9 @@ justify-content: flex-end;
     padding-top: 70px;
 }
 
+h1, h2 {
+    text-shadow: 2px 2px #DCAE96;
+}
 img {
     display: block;
     margin: 10px auto;
@@ -35,6 +38,7 @@ img {
     height: 200px;
     width: 200px;
     border-radius: 15%;
+    box-shadow: 2px 2px antiquewhite;
 }
 
 form {
@@ -47,6 +51,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 2px 2px antiquewhite;
 }
 
 p { 
@@ -58,7 +63,7 @@ h1, h2  {
 }
 
 section {
-    background-color: olive;
+    background-color: #6c765B;
     text-align: center;
     color: antiquewhite;
     margin-top: 10px;
@@ -74,7 +79,7 @@ label {
 
 input[type=submit] {
     background-color: antiquewhite;
-    color: olive;
+    color: #6c765b;
     padding: 5px 15px;
     margin-bottom: 20px;
     border-radius: 15%;
